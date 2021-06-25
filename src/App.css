@@ -134,29 +134,58 @@ html {
 body {
   font-size: 1.6rem;
 }
-.home-img-container {
+.home-img {
   padding-top: 15rem;
-  background-image: url("../src/assets/homeIMG.jpg");
+  background-image: url("../src/assets/headerIMG.jpg");
   width: 100%;
   height: 100rem;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.profile-img {
+.home-header-text{
   position: absolute;
-  border-radius: 50%;
-  max-width: 100%;
-  background-image: url("../src/assets/profileIMG2.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-height: 50rem;
-  width: 50rem;
-  height: 50rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+  top: 43rem;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto;
-  top: 10rem;
   left: 0;
   right: 0;
+}
+.home-header-text h1{
+  font-size: 6rem;
+  margin-top: 3.5rem;
+  margin-left: -3rem;
+  color: white;
+}
+
+.about-me{
+  height: 60rem;
+  background-color: black;
+  display: flex;
+}
+.about-me div{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.about-me h2{
+  color:white;
+}
+.about-me img{
+  border-radius: 50%;
+  width: 40rem;
+}
+.skills{
+  height: 30rem;
+  background-color: dimgray;
 }
