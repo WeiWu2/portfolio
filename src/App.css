@@ -185,7 +185,31 @@ body {
   border-radius: 50%;
   width: 40rem;
 }
+.skills-container{
+  height: 50rem;
+  background-color: #1B1B1B;
+}
+.skills-list{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 15rem 0 15rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .skills{
-  height: 30rem;
-  background-color: dimgray;
+  color: white;
+  font-size: 2rem;
+  width: 30rem;
+  margin-top: 2rem;
+  transition:box-shadow .5s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills:hover{
+  box-shadow: 0 0 1rem 0 white;
+}
+.projects-container{
+  height: 70rem;
 }
