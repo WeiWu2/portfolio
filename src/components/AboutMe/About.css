@@ -2,6 +2,11 @@
   height: 60rem;
   background-color: black;
   display: flex;
+  background-image: url("../../assets/about-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 17px 6px rgb(0, 0, 0);
 }
 .about-me div {
   width: 50%;

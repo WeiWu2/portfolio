@@ -3,6 +3,10 @@ import reactLogo from "../../assets/react-logo.svg";
 import jsLogo from "../../assets/javascript-logo.svg";
 import cssLogo from "../../assets/css-logo.svg";
 import htmlLogo from "../../assets/html-logo.svg";
+import postgesqlLogo from '../../assets/postgresql-logo.svg';
+import reduxLogo from '../../assets/redux-logo.svg';
+import nodeLogo from '../../assets/node-logo.svg';
+import gitLogo from '../../assets/git-logo.svg';
 import "./Skills.css";
 export default function Skills() {
   return (
@@ -26,20 +30,20 @@ export default function Skills() {
           <p>CSS3</p>
         </div>
         <div className="skills">
-          <img src={cssLogo} alt="CSS3"></img>
+          <img src={nodeLogo} alt="Node.js"></img>
           <p>Node.js</p>
         </div>
         <div className="skills">
-          <img src={cssLogo} alt="CSS3"></img>
+          <img src={gitLogo} alt="Git"></img>
           <p>Git</p>
         </div>
         <div className="skills">
-          <img src={cssLogo} alt="CSS3"></img>
+          <img src={reduxLogo} alt="Redux"></img>
           <p>Redux</p>
         </div>
         <div className="skills">
-          <img src={cssLogo} alt="CSS3"></img>
-          <p>Postgres</p>
+          <img src={postgesqlLogo} alt="PostgreSQL"></img>
+          <p>PostgreSQL</p>
         </div>
       </div>
     </div>
